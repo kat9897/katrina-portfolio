@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
@@ -9,28 +9,31 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Katrina Best",
+  title: "Hi all, I'm Katrina",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Software Developer Intern ready to learn more! \
+    I'm excited to have an experience of designing and building Web and \
+    Mobile applications with JavaScript / Reactjs / Nodejs and some \
+    other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1bCJRHGOtSHsI4RLh1YVzCU65xviaqsqh/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/kat9897",
+   linkedin: "https://www.linkedin.com/in/katrina-best",
+  gmail: "katrinaemily.best@mail.utoronto.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  // instagram: 'https://www.instagram.com/davidrakosi/',
+  // twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,14 +41,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AWESOME SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY OPPORTUNITY",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA )"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as GitHub / MongoDB / Netlify"
     )
   ],
 
@@ -62,10 +65,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -74,24 +73,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "c",
+      fontAwesomeClassname: "fab fa-c"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,26 +95,15 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of Toronto",
+      logo: require("./assets/images/UTSC.png"),
+      subHeader: "Undergrad of Science in Statistics",
+      duration: "September 2019 - present",
+      desc: "Participated in 4 hackathons in 2021 and 2 challenges so far as of February.\
+      Took courses in web dev and databases, Python, and C."      
     }
   ]
 };
@@ -135,11 +119,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -151,34 +135,59 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Software Developer Intern",
+      company: "tShirtGang.com",
+      companylogo: require("./assets/images/tshirtganglogo.png"),
+      date: "April 2021 – Present",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
         "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Coaching"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Teaching Assistant",
+      company: "University of Toronto Scarborough",
+      companylogo: require("./assets/images/UTSC.png"),
+      date: "September 2020 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "CSCA48 - Introduction to Computer Science 2: January 2020 - present\
+        CSCA08 - Introduction to Computer Science 1: September 2020 - December 2020\
+        \
+        Assisting students with Computer Science course materials including Python and C programming \
+        languages; encouraging classroom participation and online performance; marking and invigilation \
+        in co-operation with a team of colleagues."
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Supervisor",
+      company: "Roxy Theatres",
+      companylogo: require("./assets/images/theroxy.png"),
+      date: "August 2015 – August 2019",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "Assisted and controlled food production with a small team of employers\
+        Communicated with a small team and coordinated different assignments to give them\
+        Mentored new employees the basic training required for their position\
+        Maintained a professional demeanour while discussing customer affairs and answering questions\
+        Improved equipment for better use for making popcorn\
+        Optimized the flow of customers by organizing coworkers to have an effective system of preparing food and serving customers\
+        Thanked by customers and complimented on patience and efficiency"
+    },
+    {
+      role: "Soccer Referee",
+      company: "Uxbridge Soccer Club",
+      companylogo: require("./assets/images/theroxy.png"),
+      date: "June 2015 – September 2016",
+      desc:
+        "Worked every summer from June - September\
+        Followed and enforced the rules and regulations required by the company\
+        Punctual with time\
+        Organized the game and made sure all rules were made aware to players and coaches\
+        Accurately recorded information about the game\
+        Dealt with stressful situations in a calm but professional manner\
+        Refereed over 50 games in two summers\
+        Kept children in between the ages of 5-11 engaged and active in the soccer games\
+        Upheld a lively and fun experience for all participants involved"
     }
   ]
 };
@@ -188,42 +197,98 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "kat9897", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME STARTUPS AND PROJECT THAT I HELPED CREATE",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      
+      image: require("./assets/images/One Of Us Final.png"),
+      projectName: "One of Us - MH Hacks Finalist",
+      projectDesc: "Created a website UI/UX design to create communities for students at UTSC in the pandemic to connect them.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "fa"
+          name: "Visit Video",
+          url: "https://youtu.be/P3728lDb8iY",
+          name: "Visit Website Design",
+          url: "https://www.figma.com/file/jmR3KvwlqPSovZPhbIdnYk/MH-hacks-ideas?node-id=0%3A1"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/FocaLearn.png"),
+      projectName: "FocaLearn - UofTHacks Submission",
+      projectDesc: "Created a chrome extension using Javascript and HTML that plays calming music to help you study.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/kat9897/FocaLearn"
+        }
+      ]
+    }, 
+    {
+      image: require("./assets/images/Helping_Hearts.jpg"),
+      projectName: "Helping Hearts - StarHacks Submission",
+      projectDesc: "Developed a prototype website to help those share their mental health needs.\
+      Developed skills in HTML, CSS, and Javascript.",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://helping-hearts.netlify.app/",
+          name: "Visit Video",
+          url: "https://youtu.be/TL0htUBnotE",
+          name: "Visit GitHub",
+          url: "https://github.com/kat9897/Helping-Hearts"
+        }
+      ]
+    }, 
+    {
+      image: require("./assets/images/Seasoning_Shack.jpg"),
+      projectName: "Seasoning Shack - Hack the Valley 4 Winner",
+      projectDesc: "Awarded the ‘Cheapr Eats API Prize’. Developed skills in PHP, mySQL, CSS, and HTML. Implemented secure \
+      signup and login verification page, and collaborated in designing a functional website. Created a video demo showing \
+      its capabilities and our creative ideas for the project using Shotcut.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/kat9897/Seasoning-Shack"
+        }
+      ]
+    }, 
+    {
+      image: require("./assets/images/Crossing.jpg"),
+      projectName: "When You Cross, Don't Be Lost - School Project",
+      projectDesc: "Created a short video to demonstrate the dangers of unawareness while \
+      crossing the street. Developed Shotcut and videographic skills.",
+      footerLink: [
+        {
+          name: "Visit Video",
+          url: "https://youtu.be/jviDYpIPawQ"
+        }
+      ]
+    }, 
+    {
+      image: require("./assets/images/GLO_Project.jpg"),
+      projectName: "GLO Project - School Project",
+      projectDesc: "Collaborated with a team to create a professional handheld device that creates an altered laser tag game,\
+      successfully meeting our beta project timeline. Designed code to allow devices to interact with one another.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sites.google.com/ddsb.ca/projectglo/home"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -236,56 +301,89 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Cybersecurity Case Competition Winner",
+      subtitle: "Awarded $500 to a skilled team who successfully strategized and presented\
+       a solution to increase the cybersecurity for a case study referring to a security breach.",
+      image: require("./assets/images/Cybersecurity.jpg"),
       footerLink: [
         {
-          name: "Certification",
-          url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+          name: "View Website",
+          url: "http://www.explorecsr.ca/events.html"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Smart Serve Certificate",
+      image: require("./assets/images/Smart-Serve-Logo.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url:
-            ""
+          name: "View Website",
+          url: "https://smartserve.ca/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Hack the Valley 4 Winner",
+      subtitle: "Awarded to a determined team with the best API at Hack the Valley 4 chosen by Cheapr Eats.",
+      image: require("./assets/images/htv.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: ""
+          name: "View Website",
+          url: "https://kat9897.github.io/Seasoning-Shack/",
+          name: "View Project Gallery",
+          url: "https://hack-the-valley-4-9442.devpost.com/project-gallery",
+          name: "View GitHub",
+          url: "https://github.com/kat9897/Seasoning-Shack"
+        }
+      ]
+    },
+    {
+      title: "safeTALK Suicide Alertness Training and Certificate",
+      image: require("./assets/images/safeTALK.jpg"),
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://www.livingworks.net/safetalk"
+        }
+      ]
+    },
+    {
+      title: "Sensei Title and Certificate",
+      image: require("./assets/images/okami-kai.jpg"),
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://okamikai.com/"
+        }
+      ]
+    }, 
+    {
+      title: "Annual Alaine Campsall Memorial Scholarship Award",
+      subtitle: "A special annual award is given to one student of karate who exceeds all expectations \
+      and demonstrates exceptional qualities in the dojo",
+      image: require("./assets/images/okami-kai.jpg"),
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://okamikai.com/"
+        }
+      ]
+    },
+    {
+      title: "1st Dan Shotokan Black Belt",
+      subtitle: "Completed the requirements for all lower belts and executed outstanding performance \
+      in physical and mental tests. Sufficiently passed all of the different categories including kata,\
+       kumite, basics, judo, aikido, self-defence, and weapons.",
+      image: require("./assets/images/okami-kai.jpg"),
+      footerLink: [
+        {
+          name: "View Website",
+          url: "https://okamikai.com/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,7 +408,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +447,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  email_address: "katrinaemily.best@mail.utoronto.ca"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
