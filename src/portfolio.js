@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // Summary And Greeting Section
 
@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Soccer Referee",
       company: "Uxbridge Soccer Club",
-      companylogo: require("./assets/images/theroxy.png"),
+      companylogo: require("./assets/images/uxbridge_soccer.jpg"),
       date: "June 2015 – September 2016",
       desc:
         "Worked every summer from June - September\
@@ -209,18 +209,30 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND PROJECT THAT I HELPED CREATE",
   projects: [
     {
-      
+      image: require("./assets/images/sky-chat-logo.png"),
+      projectName: "Sky Chat - React JS 5 Day Challenge",
+      projectDesc: "Worked with Firebase for the first time and React JS to create a Slack clone called Sky Chat.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://slack-clone-kat.netlify.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/One Of Us Final.png"),
       projectName: "One of Us - MH Hacks Finalist",
       projectDesc: "Created a website UI/UX design to create communities for students at UTSC in the pandemic to connect them.",
       footerLink: [
         {
-          name: "Visit Video",
-          url: "https://youtu.be/P3728lDb8iY",
           name: "Visit Website Design",
           url: "https://www.figma.com/file/jmR3KvwlqPSovZPhbIdnYk/MH-hacks-ideas?node-id=0%3A1"
-        }
+        },
         //  you can add extra buttons here.
+        {
+          name: "Visit Video",
+          url: "https://youtu.be/P3728lDb8iY"
+        }
       ]
     },
     {
@@ -242,9 +254,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://helping-hearts.netlify.app/",
+          url: "https://helping-hearts.netlify.app/"
+        },
+        {
           name: "Visit Video",
-          url: "https://youtu.be/TL0htUBnotE",
+          url: "https://youtu.be/TL0htUBnotE"
+        },
+        {
           name: "Visit GitHub",
           url: "https://github.com/kat9897/Helping-Hearts"
         }
